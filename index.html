@@ -81,6 +81,89 @@
         var b = 5 - 4
         console.log(a, b)
 
+        // // // // // // // // 
+        // conditional statement//
+        let s = 12;
+        if (s === 12) {
+            console.log("piyush")
+
+        }
+        else {
+            console.log("sachin")
+        }
+        // // // // // // // //
+        let p = 20005;
+        if (p === 2005) {
+            console.log("sachin")
+        }
+        else { console.log("22 / 5 / 2005") }
+
+
+        // ternary operator //
+        var D = 30;
+        console.log((D == 30) ? "piyush" : "sachin");
+
+
+        // // switch statement // // 
+        let animals = ["tiger", "dog", "cat", "lion"]
+        for (let cat of animals) {
+            switch (cat) {
+                case "tiger":
+                    console.log("tiger is dangerous");
+                    break;
+                case "dog":
+                    console.log("dog is dangerous");
+                    break;
+                case "lion":
+                    console.log("lion is dangerous");
+                    break;
+            }
+
+        }
+
+
+        // // for loop // //
+        for (let i = 0; i <= 10; i++) {
+            console.log(i);
+
+
+        }
+
+        // // this keyboard // //
+
+        const user = {
+            name: "abc",
+            birthTime: 2003,
+            birthDay: function () {
+                const currentyear = (new Date()).getFullYear();
+                return currentyear - this.birthTime;
+            }
+        }
+        console.log(user.birthDay())
+
+        // // construction // //
+
+        function car(make, model, year) {
+            this.make = make;
+            this.model = model;
+            this.year = year;
+        }
+
+        const car1 = new car("rubicon", "top-model", 2024)
+        console.log(car1);
+        const car2 = new car("scorpio-n", "top-model", 2024)
+        console.log(car2);
+        const car3 = new car("beat", "top-model", 2024)
+        console.log(car3);
+
+
+        // // setTimeout // //
+        setTimeout(() => {
+            console.log("bishnoi");
+        }, 5000);
+        console.log("sachin");
+
+
     </script>
 
 </body>
