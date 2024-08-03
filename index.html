@@ -8,6 +8,10 @@
 </head>
 
 <body>
+    <h1>Hello Coding</h1>
+    <p>future is Coding </p>
+    <p class="my">is</p>
+    <p>Coding</p>
     <script>
         var a = 34;
         var b = 23;
@@ -19,18 +23,15 @@
         var h = -100;
         console.log(a + b + c + d + e + f + g + h)
 
-
         // // // // // // // // 
         var a = 1;
         var b = true;
         console.log(a == b)
 
-
         // // // // // // // //
         var a = 1;
         var b = true;
         console.log(a === b)
-
 
         // // // // // // // //
         var a = 12;
@@ -48,7 +49,6 @@
 
         }
         console.log(a)
-
 
         //  
         var name = "sachin";
@@ -70,18 +70,15 @@
         var b = 22222 - "2923";
         console.log(b)
 
-
         // // // // // // // //
         var a = 100 - "50" - "25" - "5" - "3" - "8";
         console.log(a)
-
 
         // // // // // // // // 
         var a = 2 + "7";
         var b = 5 - 4
         console.log(a, b)
 
-        // // // // // // // // 
         // conditional statement//
         let s = 12;
         if (s === 12) {
@@ -98,11 +95,9 @@
         }
         else { console.log("22 / 5 / 2005") }
 
-
         // ternary operator //
         var D = 30;
         console.log((D == 30) ? "piyush" : "sachin");
-
 
         // // switch statement // // 
         let animals = ["tiger", "dog", "cat", "lion"]
@@ -118,14 +113,6 @@
                     console.log("lion is dangerous");
                     break;
             }
-
-        }
-
-
-        // // for loop // //
-        for (let i = 0; i <= 10; i++) {
-            console.log(i);
-
 
         }
 
@@ -163,8 +150,39 @@
         }, 5000);
         console.log("sachin");
 
+        // // FOR LOOP // //
+
+        for (let i = 0; i <= 12; i++) {
+            console.log(i);
+        }
+
+        // // While Loop // //
+
+
+        // // QuerySelector // //
+        document.querySelector("h1").style.backgroundColor = 'red'
+        document.querySelector("h1").style.fontSize = '32px'
+        document.querySelector("h1").style.padding = '20px'
+        document.querySelector("h1").style.borderRadius = '20px'
+        document.querySelector("h1").style.color = 'white'
+        document.querySelector("h1").style.width = '43%'
+
+        // // GET ELEMNTS BY TAG NAME // //
+        document.getElementsByTagName("p")[0].innerHTML = "FUTURE";
+        document.querySelector("p").style.backgroundColor = 'green'
+        document.querySelector("p").style.padding = '12px'
+        document.querySelector("p").style.fontSize = '32px'
+        document.querySelector("p").style.borderRadius = '20px'
+        document.querySelector("p").style.width = '43%'
+        document.querySelector("p").style.color = 'white'
+
+        // // create / clone elements // //
+
+
+
 
     </script>
+
 
 </body>
 
