@@ -194,6 +194,58 @@
         para_2.style.borderRadius = '12px'
         document.body.appendChild(para_2)
 
+        const para_3 = document.createElement("h2")
+        para_3.innerText = "This is a Last Paragraph"
+        para_3.style.backgroundColor = 'red'
+        para_3.style.padding = '15px'
+        para_3.style.color = 'white'
+        para_3.style.borderRadius = '12px'
+        document.body.appendChild(para_3)
+
+
+        // // ADD NODE TO DOCUMENT // //
+
+
+
+        // // PROMISE // //
+        const x = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                let user = false;
+                if (user) {
+                    resolve("successful login");
+                }
+                else {
+                    reject("login failed");
+                }
+
+            },);
+        })
+        x.then((resolve) => {
+            console.log(resolve);
+
+        }).catch((Error) => {
+            console.log(Error);
+        });
+
+
+        const z = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                let user = true;
+                if (user) {
+                    resolve("successful login");
+                }
+                else {
+                    reject("login failed");
+                }
+
+            },);
+        })
+        z.then((resolve) => {
+            console.log(resolve);
+
+        }).catch((Error) => {
+            console.log(Error);
+        });
 
 
 
