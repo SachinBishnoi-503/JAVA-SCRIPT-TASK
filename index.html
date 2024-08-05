@@ -218,7 +218,7 @@
                     reject("login failed");
                 }
 
-            },);
+            }, (4000));
         })
         x.then((resolve) => {
             console.log(resolve);
@@ -238,7 +238,7 @@
                     reject("login failed");
                 }
 
-            },);
+            }, (3000));
         })
         z.then((resolve) => {
             console.log(resolve);
@@ -247,6 +247,41 @@
             console.log(Error);
         });
 
+        // // MATH-pow// //
+        let fa = Math.pow(2, 10);
+        console.log(fa);
+
+        // MATH-SQRT // //
+        let q = Math.sqrt(16);
+        console.log(q);
+
+        // MATH-MIN // //
+        let t = Math.min(121, 123, 124);
+        console.log(t)
+
+        // // MATH-MAX // //
+        let ga = Math.max(121, 124, 125);
+        console.log(ga)
+
+        // // MATH-FLOOR // //
+        let fg = Math.floor(123.45);
+        console.log(fg)
+
+        // // MATH-CEIL // //
+        var a = Math.ceil(123.45);
+        console.log(a);
+
+        // // MATH-ROUND // //
+
+        var a = Math.round(130.49);
+        console.log(a);
+
+        var a = Math.round(130.51);
+        console.log(a);
+
+        // // MATH-RANDOM // //
+        var a = Math.random();
+        console.log(a);
 
 
     </script>
