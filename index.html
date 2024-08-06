@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAVA SCRIPT</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -217,7 +218,7 @@
                 else {
                     reject("login failed");
                 }
-
+ 
             }, (4000));
         })
         x.then((resolve) => {
@@ -282,6 +283,75 @@
         // // MATH-RANDOM // //
         var a = Math.random();
         console.log(a);
+
+        // // DATE // //
+        var a = new Date().getDate();
+        console.log(a);
+
+        var a = new Date().getFullYear();
+        console.log(a);
+
+        var a = new Date().getDay();
+        console.log(a);
+
+        var a = new Date().getHours();
+        console.log(a);
+
+        var a = new Date().getMinutes();
+        console.log(a);
+
+        var a = new Date().getSeconds();
+        console.log(a);
+
+        var a = new Date('9/17/2000')
+        a.getDate()
+        a.getDay()
+        a.getFullYear()
+        a.getHours()
+        a.getMinutes()
+        Date.now('6/8/2024')
+
+        console.log(a);
+
+        // // ARRAY // //
+
+        // FILTER //
+        const words = ['sassdsd', 'sasdas', 'ssdasd', 'sasdas'];
+        const result = words.filter((word) => word.length > 5);
+        console.log(result);
+
+
+        // // MAP // //
+        const array1 = [1, 41, 9, 16];
+        const map1 = array1.map((x) => x * 5);
+        console.log(map1);
+
+
+        // // FIND // //            
+        const array2 = [5, 12, 8, 130, 44];
+        const array3 = array2.find((element) => element > 10);
+        console.log(array3);
+
+        const array5 = [40, 1, 50, 30, 120];
+        const array4 = array5.find((element) => element < 39)
+        console.log(array4);
+
+        // // FOR EACH // //
+        const aa = ["aa", "bb", "cc"];
+        aa.forEach((element) => console.log(element));
+
+        //  // EVERY // //
+        const ssss = (value) => (value) < 50;
+        const aaaaa = [20.20, 40.45]
+        console.log(aaaaa.every(ssss));
+
+
+        const hhhh = (value) => (value) > 50;
+        const iiiii = [20.20, 40.45]
+        console.log(iiiii.every(hhhh));
+
+        // // 
+
 
 
     </script>
